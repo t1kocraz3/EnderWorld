@@ -51,6 +51,7 @@ public class EnderworldModItems {
 	public static final DeferredItem<Item> NITRA;
 	public static final DeferredItem<Item> DEEPSLATE_NITRA;
 	public static final DeferredItem<Item> BLACK_PEARL;
+	public static final DeferredItem<Item> NITRA_CRYSTALL;
 	static {
 		ENDER_TURF = block(EnderworldModBlocks.ENDER_TURF);
 		ENDER_DIRT = block(EnderworldModBlocks.ENDER_DIRT);
@@ -84,6 +85,7 @@ public class EnderworldModItems {
 		NITRA = block(EnderworldModBlocks.NITRA);
 		DEEPSLATE_NITRA = block(EnderworldModBlocks.DEEPSLATE_NITRA);
 		BLACK_PEARL = register("black_pearl", BlackPearlItem::new);
+		NITRA_CRYSTALL = register("nitra_crystall", NitraCrystallItem::new);
 	}
 
 	// Start of user code block custom items

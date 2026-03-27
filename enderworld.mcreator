@@ -1201,6 +1201,21 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "NitraCrystall",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitra_crystall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/item/nitra_crystall.json",
+          "src/main/resources/assets/enderworld/items/nitra_crystall.json",
+          "src/main/java/net/mcreator/enderworld/item/NitraCrystallItem.java"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -1314,7 +1329,8 @@
       "item.enderworld.pearl": "Pearl",
       "item.enderworld.nitra": "Nitra",
       "item.enderworld.deepslate_nitra": "Deepslate Nitra",
-      "item.enderworld.black_pearl": "Black Pearl"
+      "item.enderworld.black_pearl": "Black Pearl",
+      "item.enderworld.nitra_crystall": "Nitra Crystall"
     },
     "ru_ru": {
       "item.enderworld.ender_dirt": "Земля энда",
@@ -1353,7 +1369,8 @@
       "item.enderworld.pearl": "Pearl",
       "item.enderworld.nitra": "Nitra",
       "item.enderworld.deepslate_nitra": "Deepslate Nitra",
-      "item.enderworld.black_pearl": "Black Pearl"
+      "item.enderworld.black_pearl": "Black Pearl",
+      "item.enderworld.nitra_crystall": "Nitra Crystall"
     }
   },
   "metadata": {
@@ -1448,7 +1465,7 @@
   "workspaceSettings": {
     "modid": "enderworld",
     "modName": "EnderWorld",
-    "version": "26.3.7",
+    "version": "26.3.8",
     "description": "Mod makes The End much better",
     "author": "CrazenMC",
     "websiteURL": "https://modrinth.com/mod/crazenmcsenderworld",

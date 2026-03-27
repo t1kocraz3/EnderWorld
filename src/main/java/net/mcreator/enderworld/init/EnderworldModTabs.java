@@ -47,6 +47,10 @@ public class EnderworldModTabs {
 				tabData.accept(EnderworldModBlocks.END_GRASS.get().asItem());
 				tabData.accept(EnderworldModItems.GOLDEN_ROTTEN_APPLE.get());
 				tabData.accept(EnderworldModBlocks.END_BIRCH_SAPLING.get().asItem());
+				tabData.accept(EnderworldModItems.PEARL.get());
+				tabData.accept(EnderworldModBlocks.NITRA.get().asItem());
+				tabData.accept(EnderworldModBlocks.DEEPSLATE_NITRA.get().asItem());
+				tabData.accept(EnderworldModItems.BLACK_PEARL.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -60,6 +64,8 @@ public class EnderworldModTabs {
 			tabData.accept(EnderworldModBlocks.STRIPPED_END_BIRCH.get().asItem());
 			tabData.accept(EnderworldModBlocks.END_GRASS.get().asItem());
 			tabData.accept(EnderworldModBlocks.END_BIRCH_SAPLING.get().asItem());
+			tabData.accept(EnderworldModBlocks.NITRA.get().asItem());
+			tabData.accept(EnderworldModBlocks.DEEPSLATE_NITRA.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(EnderworldModItems.RAW_ENDERNITE.get());
 			tabData.accept(EnderworldModItems.ENDERNITE_INGOT.get());
@@ -67,6 +73,8 @@ public class EnderworldModTabs {
 			tabData.accept(EnderworldModItems.REINFORCED_IRON_ROD.get());
 			tabData.accept(EnderworldModItems.ENDERNITE_UPGRADE_SMITHING_TEMPLE.get());
 			tabData.accept(EnderworldModItems.REINFORCED_ENDERNITE_INGOT.get());
+			tabData.accept(EnderworldModItems.PEARL.get());
+			tabData.accept(EnderworldModItems.BLACK_PEARL.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(EnderworldModBlocks.END_BIRCH_WOOD.get().asItem());
 			tabData.accept(EnderworldModBlocks.STRIPPED_END_BIRCH_WOOD.get().asItem());
