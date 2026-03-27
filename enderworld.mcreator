@@ -1380,11 +1380,13 @@
     "websiteURL": "https://modrinth.com/mod/crazenmcsenderworld",
     "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
+    "modPicture": "icon",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.8",
+    "credits": "Thanks to Adobus \u0026 Argentum541 for help",
     "modElementsPackage": "net.mcreator.enderworld"
   },
   "mcreatorVersion": 202500345720
