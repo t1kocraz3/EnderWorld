@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "end_birch_planks_recipes",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "enderworld:end_birch_planks"
+  },
+  "result": {
+    "id": "enderworld:end_birch_stairs",
+    "count": 4
+  }
+}

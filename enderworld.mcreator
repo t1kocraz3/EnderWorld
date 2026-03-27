@@ -1,0 +1,1391 @@
+{
+  "mod_elements": [
+    {
+      "name": "EnderGrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_turf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/items/ender_turf.json",
+          "src/main/java/net/mcreator/enderworld/block/EnderGrassBlock.java",
+          "src/main/resources/assets/enderworld/models/block/ender_turf.json",
+          "src/main/resources/assets/enderworld/models/item/ender_turf.json",
+          "src/main/resources/assets/enderworld/blockstates/ender_turf.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/ender_turf.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EnderDirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/loot_table/blocks/ender_dirt.json",
+          "src/main/resources/assets/enderworld/models/item/ender_dirt.json",
+          "src/main/resources/assets/enderworld/items/ender_dirt.json",
+          "src/main/resources/assets/enderworld/blockstates/ender_dirt.json",
+          "src/main/resources/assets/enderworld/models/block/ender_dirt.json",
+          "src/main/java/net/mcreator/enderworld/block/EnderDirtBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EnderniteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endernite_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enderworld/block/EnderniteOreBlock.java",
+          "src/main/resources/assets/enderworld/items/endernite_ore.json",
+          "src/main/resources/assets/enderworld/models/item/endernite_ore.json",
+          "src/main/resources/assets/enderworld/models/block/endernite_ore.json",
+          "src/main/resources/data/enderworld/worldgen/placed_feature/endernite_ore.json",
+          "src/main/resources/data/enderworld/neoforge/biome_modifier/endernite_ore_biome_modifier.json",
+          "src/main/resources/assets/enderworld/blockstates/endernite_ore.json",
+          "src/main/resources/data/enderworld/worldgen/configured_feature/endernite_ore.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RawEndernite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_endernite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/items/raw_endernite.json",
+          "src/main/java/net/mcreator/enderworld/item/RawEnderniteItem.java",
+          "src/main/resources/assets/enderworld/models/item/raw_endernite.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EndForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/worldgen/biome/end_forest.json",
+          "src/main/resources/data/enderworld/worldgen/configured_feature/end_forest_tree.json",
+          "src/main/resources/data/enderworld/worldgen/placed_feature/end_forest_tree.json"
+        ]
+      },
+      "path": "~/Biomes/EndForest"
+    },
+    {
+      "name": "EndForestBiome",
+      "type": "endbiome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_forest_biome",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Biomes/EndForest"
+    },
+    {
+      "name": "EnderniteOreTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endernite_ore_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/loot_table/blocks/endernite_ore.json"
+        ]
+      },
+      "path": "~/Drop Tables"
+    },
+    {
+      "name": "EndBirch",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/block/end_birch.json",
+          "src/main/resources/assets/enderworld/blockstates/end_birch.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/end_birch.json",
+          "src/main/resources/assets/enderworld/models/item/end_birch.json",
+          "src/main/java/net/mcreator/enderworld/block/EndBirchBlock.java",
+          "src/main/resources/assets/enderworld/items/end_birch.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndBirchWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/item/end_birch_wood.json",
+          "src/main/resources/assets/enderworld/blockstates/end_birch_wood.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/end_birch_wood.json",
+          "src/main/resources/assets/enderworld/items/end_birch_wood.json",
+          "src/main/java/net/mcreator/enderworld/block/EndBirchWoodBlock.java",
+          "src/main/resources/assets/enderworld/models/block/end_birch_wood.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndBirchWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/end_birch_wood_recipe.json",
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_wood_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/item/end_birch_leaves.json",
+          "src/main/resources/assets/enderworld/blockstates/end_birch_leaves.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/end_birch_leaves.json",
+          "src/main/java/net/mcreator/enderworld/block/EndBirchLeavesBlock.java",
+          "src/main/resources/assets/enderworld/items/end_birch_leaves.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "StrippedEndBirch",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_end_birch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/items/stripped_end_birch.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/stripped_end_birch.json",
+          "src/main/resources/assets/enderworld/blockstates/stripped_end_birch.json",
+          "src/main/java/net/mcreator/enderworld/block/StrippedEndBirchBlock.java",
+          "src/main/resources/assets/enderworld/models/block/stripped_end_birch.json",
+          "src/main/resources/assets/enderworld/models/item/stripped_end_birch.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndLeavesDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_leaves_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/loot_table/blocks/end_birch_leaves.json"
+        ]
+      },
+      "path": "~/Drop Tables"
+    },
+    {
+      "name": "StrippedEndBirchWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_end_birch_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/block/stripped_end_birch_wood.json",
+          "src/main/resources/assets/enderworld/items/stripped_end_birch_wood.json",
+          "src/main/resources/assets/enderworld/blockstates/stripped_end_birch_wood.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/stripped_end_birch_wood.json",
+          "src/main/java/net/mcreator/enderworld/block/StrippedEndBirchWoodBlock.java",
+          "src/main/resources/assets/enderworld/models/item/stripped_end_birch_wood.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EnderniteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endernite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/item/endernite_ingot.json",
+          "src/main/resources/assets/enderworld/items/endernite_ingot.json",
+          "src/main/java/net/mcreator/enderworld/item/EnderniteIngotItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EndWorldDebug",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_world_debug",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "EndBirchPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enderworld/block/EndBirchPlanksBlock.java",
+          "src/main/resources/assets/enderworld/models/item/end_birch_planks.json",
+          "src/main/resources/assets/enderworld/items/end_birch_planks.json",
+          "src/main/resources/assets/enderworld/blockstates/end_birch_planks.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_planks.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/end_birch_planks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndBirchSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/loot_table/blocks/end_birch_slab.json",
+          "src/main/java/net/mcreator/enderworld/block/EndBirchSlabBlock.java",
+          "src/main/resources/assets/enderworld/models/block/end_birch_slab_full.json",
+          "src/main/resources/assets/enderworld/models/item/end_birch_slab.json",
+          "src/main/resources/assets/enderworld/blockstates/end_birch_slab.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_slab_top.json",
+          "src/main/resources/assets/enderworld/items/end_birch_slab.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndBirchStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/block/end_birch_stairs.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/end_birch_stairs.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_stairs_inner.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_stairs_outer.json",
+          "src/main/java/net/mcreator/enderworld/block/EndBirchStairsBlock.java",
+          "src/main/resources/assets/enderworld/items/end_birch_stairs.json",
+          "src/main/resources/assets/enderworld/models/item/end_birch_stairs.json",
+          "src/main/resources/assets/enderworld/blockstates/end_birch_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndBicrhSlab",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_bicrh_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/end_bicrh_slab.json",
+          "src/main/resources/data/enderworld/advancement/recipes/end_bicrh_slab.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/end_birch_stairs_recipe.json",
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/end_birch_door_recipe.json",
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_door_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/block/end_birch_door_bottom_left_open.json",
+          "src/main/resources/assets/enderworld/items/end_birch_door.json",
+          "src/main/resources/assets/enderworld/models/item/end_birch_door.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_door_top_right.json",
+          "src/main/resources/assets/enderworld/blockstates/end_birch_door.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_door_top_left.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_door_top_right_open.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/end_birch_door.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_door_bottom_left.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_door_top_left_open.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_door_bottom_right.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_door_bottom_right_open.json",
+          "src/main/java/net/mcreator/enderworld/block/EndBirchDoorBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndBirchStem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_stem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enderworld/block/EndBirchStemBlock.java",
+          "src/main/resources/assets/enderworld/models/block/end_birch_stem_wall.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_stem.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/end_birch_stem.json",
+          "src/main/resources/assets/enderworld/items/end_birch_stem.json",
+          "src/main/resources/assets/enderworld/blockstates/end_birch_stem.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_stem_open.json",
+          "src/main/resources/assets/enderworld/models/item/end_birch_stem.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_stem_wall_open.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndBirchFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/item/end_birch_fence.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_fence.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/end_birch_fence.json",
+          "src/main/resources/assets/enderworld/blockstates/end_birch_fence.json",
+          "src/main/java/net/mcreator/enderworld/block/EndBirchFenceBlock.java",
+          "src/main/resources/assets/enderworld/items/end_birch_fence.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_fence_post.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_fence_inventory.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndBirchTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/items/end_birch_trapdoor.json",
+          "src/main/resources/assets/enderworld/blockstates/end_birch_trapdoor.json",
+          "src/main/java/net/mcreator/enderworld/block/EndBirchTrapdoorBlock.java",
+          "src/main/resources/assets/enderworld/models/block/end_birch_trapdoor.json",
+          "src/main/resources/assets/enderworld/models/item/end_birch_trapdoor.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_trapdoor_top.json",
+          "src/main/resources/assets/enderworld/models/block/end_birch_trapdoor_open.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/end_birch_trapdoor.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndBirchFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_fence_recipe.json",
+          "src/main/resources/data/enderworld/recipe/end_birch_fence_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchFenceGateReciepe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_fence_gate_reciepe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_fence_gate_reciepe.json",
+          "src/main/resources/data/enderworld/recipe/end_birch_fence_gate_reciepe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/end_birch_trapdoor_recipe.json",
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ReinforcedIronIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/items/reinforced_iron_ingot.json",
+          "src/main/resources/assets/enderworld/models/item/reinforced_iron_ingot.json",
+          "src/main/java/net/mcreator/enderworld/item/ReinforcedIronIngotItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ReinforcedIronIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_iron_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/reinforced_iron_ingot_recipe.json",
+          "src/main/resources/data/enderworld/advancement/recipes/reinforced_iron_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ReinforcedIronRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_iron_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/item/reinforced_iron_rod.json",
+          "src/main/java/net/mcreator/enderworld/item/ReinforcedIronRodItem.java",
+          "src/main/resources/assets/enderworld/items/reinforced_iron_rod.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ReinforcedIronRodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_iron_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/reinforced_iron_rod_recipe.json",
+          "src/main/resources/data/enderworld/recipe/reinforced_iron_rod_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnderniteUpgradeSmithingTemple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endernite_upgrade_smithing_temple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enderworld/item/EnderniteUpgradeSmithingTempleItem.java",
+          "src/main/resources/assets/enderworld/items/endernite_upgrade_smithing_temple.json",
+          "src/main/resources/assets/enderworld/models/item/endernite_upgrade_smithing_temple.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AntiCraftingTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/block/anti_crafting_table.json",
+          "src/main/java/net/mcreator/enderworld/block/AntiCraftingTableBlock.java",
+          "src/main/resources/data/enderworld/loot_table/blocks/anti_crafting_table.json",
+          "src/main/resources/assets/enderworld/items/anti_crafting_table.json",
+          "src/main/resources/assets/enderworld/models/item/anti_crafting_table.json",
+          "src/main/resources/assets/enderworld/blockstates/anti_crafting_table.json",
+          "src/main/java/net/mcreator/enderworld/block/entity/AntiCraftingTableBlockEntity.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AntiCraftingTableGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_crafting_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enderworld/client/gui/AntiCraftingTableGuiScreen.java",
+          "src/main/java/net/mcreator/enderworld/world/inventory/AntiCraftingTableGuiMenu.java",
+          "src/main/java/net/mcreator/enderworld/network/AntiCraftingTableGuiButtonMessage.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "AntiCraftingTableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_crafting_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/anti_crafting_table_recipe.json",
+          "src/main/resources/data/enderworld/recipe/anti_crafting_table_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AppleEffectAfterEating",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_effect_after_eating",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/enderworld/procedures/AppleEffectAfterEatingProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RottenApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rotten_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enderworld/item/RottenAppleItem.java",
+          "src/main/resources/assets/enderworld/models/item/rotten_apple.json",
+          "src/main/resources/assets/enderworld/items/rotten_apple.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EndGrass",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/worldgen/placed_feature/end_grass.json",
+          "src/main/java/net/mcreator/enderworld/block/EndGrassBlock.java",
+          "src/main/resources/assets/enderworld/items/end_grass.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/end_grass.json",
+          "src/main/resources/data/enderworld/worldgen/configured_feature/end_grass.json",
+          "src/main/resources/assets/enderworld/models/block/end_grass.json",
+          "src/main/resources/assets/enderworld/blockstates/end_grass.json",
+          "src/main/resources/assets/enderworld/models/item/end_grass.json",
+          "src/main/resources/data/enderworld/neoforge/biome_modifier/end_grass_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ReinforcedEnderniteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_endernite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/items/reinforced_endernite_ingot.json",
+          "src/main/java/net/mcreator/enderworld/item/ReinforcedEnderniteIngotItem.java",
+          "src/main/resources/assets/enderworld/models/item/reinforced_endernite_ingot.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ReinforcedEnderniteIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_endernite_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/reinforced_endernite_ingot_recipe.json",
+          "src/main/resources/data/enderworld/recipe/reinforced_endernite_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_planks_recipe.json",
+          "src/main/resources/data/enderworld/recipe/end_birch_planks_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchPlanksRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_planks_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/end_birch_planks_recipe_2.json",
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_planks_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchPlanksRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_planks_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_planks_recipe_3.json",
+          "src/main/resources/data/enderworld/recipe/end_birch_planks_recipe_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchPlanksRecipe4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_planks_recipe_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_planks_recipe_4.json",
+          "src/main/resources/data/enderworld/recipe/end_birch_planks_recipe_4.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchCT",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_ct",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/end_birch_ct.json",
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_ct.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchSticks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_sticks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/end_birch_sticks.json",
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_sticks.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchPickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_pickaxe.json",
+          "src/main/resources/data/enderworld/recipe/end_birch_pickaxe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_axe.json",
+          "src/main/resources/data/enderworld/recipe/end_birch_axe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchAxe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_axe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_axe_2.json",
+          "src/main/resources/data/enderworld/recipe/end_birch_axe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchShovel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/end_birch_shovel.json",
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_shovel.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchHoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_hoe.json",
+          "src/main/resources/data/enderworld/recipe/end_birch_hoe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchHoe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_hoe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_hoe_2.json",
+          "src/main/resources/data/enderworld/recipe/end_birch_hoe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndBirchSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/end_birch_sword.json",
+          "src/main/resources/data/enderworld/advancement/recipes/end_birch_sword.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GoldenRottenApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_rotten_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/item/golden_rotten_apple.json",
+          "src/main/java/net/mcreator/enderworld/item/GoldenRottenAppleItem.java",
+          "src/main/resources/assets/enderworld/items/golden_rotten_apple.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GoldenRottenApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_rotten_apple_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/enderworld/procedures/GoldenRottenApplePlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GoldenRottenAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_rotten_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/golden_rotten_apple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnderniteUpgradeSmithingTempleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endernite_upgrade_smithing_temple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/endernite_upgrade_smithing_temple_recipe.json",
+          "src/main/resources/data/enderworld/advancement/recipes/endernite_upgrade_smithing_temple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndernitePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endernite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/item/endernite_pickaxe.json",
+          "src/main/resources/assets/enderworld/items/endernite_pickaxe.json",
+          "src/main/java/net/mcreator/enderworld/item/EndernitePickaxeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "ReinforcedEndernitePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_endernite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enderworld/item/ReinforcedEndernitePickaxeItem.java",
+          "src/main/resources/assets/enderworld/models/item/reinforced_endernite_pickaxe.json",
+          "src/main/resources/assets/enderworld/items/reinforced_endernite_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "EndernitePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endernite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/advancement/recipes/endernite_pickaxe_recipe.json",
+          "src/main/resources/data/enderworld/recipe/endernite_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ReinforcedEndernitePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_endernite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/recipe/reinforced_endernite_pickaxe_recipe.json",
+          "src/main/resources/data/enderworld/advancement/recipes/reinforced_endernite_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnderniteNest",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermite_nest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/worldgen/template_pool/endermite_nest.json",
+          "src/main/resources/data/enderworld/worldgen/structure_set/endermite_nest.json",
+          "src/main/resources/data/enderworld/worldgen/structure/endermite_nest.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "EndBirchSaplingPlantRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_sapling_plant_rightclicked",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/enderworld/procedures/EndBirchSaplingPlantRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EndBirchSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/blockstates/end_birch_sapling.json",
+          "src/main/resources/assets/enderworld/models/item/end_birch_sapling.json",
+          "src/main/resources/assets/enderworld/items/end_birch_sapling.json",
+          "src/main/java/net/mcreator/enderworld/block/EndBirchSaplingBlock.java",
+          "src/main/resources/assets/enderworld/models/block/end_birch_sapling.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/end_birch_sapling.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ShulkerGarden",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shulker_garden",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/worldgen/placed_feature/shulker_garden_tree.json",
+          "src/main/resources/data/enderworld/worldgen/configured_feature/shulker_garden_tree.json",
+          "src/main/resources/data/enderworld/worldgen/biome/shulker_garden.json"
+        ]
+      },
+      "path": "~/Biomes/ShulkerGarden"
+    },
+    {
+      "name": "ShulkerGardenBiome",
+      "type": "endbiome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shulker_garden_biome",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Biomes/ShulkerGarden"
+    },
+    {
+      "name": "EndBirchSaplingOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_birch_sapling_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/enderworld/procedures/EndBirchSaplingOnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EndermiteMeadow",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermite_meadow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enderworld/worldgen/biome/endermite_meadow.json",
+          "src/main/resources/data/enderworld/worldgen/placed_feature/endermite_meadow_tree.json",
+          "src/main/resources/data/enderworld/worldgen/configured_feature/endermite_meadow_tree.json"
+        ]
+      },
+      "path": "~/Biomes/EndermiteMeadow"
+    },
+    {
+      "name": "EndermiteMeadowBiome",
+      "type": "endbiome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermite_meadow_biome",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Biomes/EndermiteMeadow"
+    },
+    {
+      "name": "DecrafterBehaviour",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decrafter_behaviour",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/enderworld/procedures/DecrafterBehaviourProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:EnderDirt",
+      "~CUSTOM:EnderGrass"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EnderniteOre"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:EnderniteOre"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:EndForest"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:AntiCraftingTable",
+      "~CUSTOM:EndBirchFence",
+      "~CUSTOM:EndBirchStem",
+      "~CUSTOM:EndBirchDoor",
+      "~CUSTOM:EndBirchStairs",
+      "~CUSTOM:EndBirchSlab",
+      "~CUSTOM:EndBirchPlanks",
+      "~CUSTOM:StrippedEndBirch",
+      "~CUSTOM:EndBirchWood",
+      "~CUSTOM:EndBirch"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:EndBirchLeaves"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:EndBirchLeaves"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:EndBirch",
+      "CUSTOM:EndBirchWood",
+      "CUSTOM:StrippedEndBirch",
+      "CUSTOM:StrippedEndBirchWood"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:EndBirchSlab"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:EndBirchStairs"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:EndBirchDoor"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:EndBirchFence"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:EndBirchTrapdoor"
+    ],
+    "BLOCKS:minecraft:end_birch_wood": [
+      "CUSTOM:EndBirch",
+      "CUSTOM:EndBirchWood",
+      "CUSTOM:StrippedEndBirch",
+      "CUSTOM:StrippedEndBirchWood"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ReinforcedEndernitePickaxe",
+      "~CUSTOM:EndernitePickaxe"
+    ],
+    "ITEMS:enderworld:endernite_pickaxe_repair_items": [
+      "~CUSTOM:ReinforcedEnderniteIngot"
+    ],
+    "ITEMS:enderworld:reinforced_endernite_pickaxe_repair_items": [
+      "~CUSTOM:ReinforcedEnderniteIngot"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.enderworld.ender_dirt": "Ender Dirt",
+      "item.enderworld.endernite_ore": "Endernite Ore",
+      "item.enderworld.raw_endernite": "Raw Endernite",
+      "biome.enderworld.end_forest": "End Forest",
+      "item.enderworld.end_birch": "End Birch",
+      "item.enderworld.end_birch_wood": "End Birch Wood",
+      "item.enderworld.end_birch_leaves": "End Birch Leaves",
+      "item.enderworld.stripped_end_birch": "Stripped End Birch",
+      "item.enderworld.ender_turf": "Ender Grass",
+      "item.enderworld.stripped_end_birch_wood": "Stripped End Birch Wood",
+      "item.enderworld.endernite_ingot": "Endernite Ingot",
+      "item_group.enderworld.end_world_debug": "End World Debug",
+      "item.enderworld.end_birch_planks": "End Birch Planks",
+      "item.enderworld.end_birch_slab": "End Birch Slab",
+      "item.enderworld.end_birch_stairs": "End Birch Stairs",
+      "item.enderworld.end_birch_door": "End Birch Door",
+      "item.enderworld.end_birch_stem": "End Birch Fence Gate",
+      "item.enderworld.end_birch_fence": "End Birch Fence",
+      "item.enderworld.end_birch_trapdoor": "End Birch Trapdoor",
+      "item.enderworld.reinforced_iron_ingot": "Reinforced Iron Ingot",
+      "item.enderworld.reinforced_iron_rod": "Reinforced Iron Rod",
+      "item.enderworld.endernite_upgrade_smithing_temple": "Endernite Upgrade Smithing Temple",
+      "item.enderworld.anti_crafting_table": "Anti Crafting Table",
+      "gui.enderworld.anti_crafting_table_gui.button_decraft": "Decraft",
+      "item.enderworld.rotten_apple": "Rotten Apple",
+      "item.enderworld.end_grass": "End Grass",
+      "item.enderworld.reinforced_endernite_ingot": "Reinforced Endernite Ingot",
+      "item.enderworld.golden_rotten_apple": "Golden Rotten Apple",
+      "item.enderworld.endernite_pickaxe": "Endernite Pickaxe",
+      "item.enderworld.reinforced_endernite_pickaxe": "Reinforced Endernite Pickaxe",
+      "item.enderworld.end_birch_sapling": "End Birch Sapling",
+      "biome.enderworld.shulker_garden": "Shulker Garden",
+      "biome.enderworld.endermite_meadow": "Endermite Meadow"
+    },
+    "ru_ru": {
+      "item.enderworld.ender_dirt": "Земля энда",
+      "item.enderworld.endernite_ore": "Эндернитовая руда",
+      "item.enderworld.raw_endernite": "Сырой Эндернит",
+      "biome.enderworld.end_forest": "Лес энда",
+      "item.enderworld.end_birch": "Бревно березы энда",
+      "item.enderworld.end_birch_wood": "Кора березы энда",
+      "item.enderworld.end_birch_leaves": "Листва березы энда",
+      "item.enderworld.stripped_end_birch": "Обтесанное бревно березы энда",
+      "item.enderworld.ender_turf": "Дерн энда",
+      "item.enderworld.stripped_end_birch_wood": "Обтесанная кора березы энда",
+      "item.enderworld.endernite_ingot": "Эндернитовый слиток",
+      "item_group.enderworld.end_world_debug": "Отладка мода",
+      "item.enderworld.end_birch_planks": "Доски березы энда",
+      "item.enderworld.end_birch_slab": "Эндерберезовый полублок",
+      "item.enderworld.end_birch_stairs": "Лесница березы энда",
+      "item.enderworld.end_birch_door": "Эндерберезовая дверь",
+      "item.enderworld.end_birch_stem": "Калитка березы энда",
+      "item.enderworld.end_birch_fence": "Забор березы энда",
+      "item.enderworld.end_birch_trapdoor": "Эндерберезовый люк",
+      "item.enderworld.reinforced_iron_ingot": "Укрепленный железный слиток",
+      "item.enderworld.reinforced_iron_rod": "Укрепленный железный стержень",
+      "item.enderworld.endernite_upgrade_smithing_temple": "Эндернитовый шаблон улучшения",
+      "item.enderworld.anti_crafting_table": "Разборщик",
+      "gui.enderworld.anti_crafting_table_gui.button_decraft": "Разобрать",
+      "item.enderworld.rotten_apple": "Гнилое яблоко",
+      "item.enderworld.end_grass": "Гнилая трава",
+      "item.enderworld.reinforced_endernite_ingot": "Укрепленный эндернитовый слиток",
+      "item.enderworld.golden_rotten_apple": "Позолоченное гнилое яблоко",
+      "item.enderworld.endernite_pickaxe": "Эндернитовая кирка",
+      "item.enderworld.reinforced_endernite_pickaxe": "Укрепленная Эндернитовая кирка",
+      "item.enderworld.end_birch_sapling": "End Birch Sapling",
+      "biome.enderworld.shulker_garden": "Shulker Garden",
+      "biome.enderworld.endermite_meadow": "Endermite Meadow"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/enderworld/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/enderworld/init/EnderworldModBiomes.java",
+      "src/main/java/net/mcreator/enderworld/endbiomes/WeightedPicker.java",
+      "src/main/java/net/mcreator/enderworld/mixin/BiomeSourceMixin.java",
+      "src/main/java/net/mcreator/enderworld/mixin/TheEndBiomeSourceMixin.java",
+      "src/main/java/net/mcreator/enderworld/endbiomes/SamplerHooks.java",
+      "src/main/java/net/mcreator/enderworld/endbiomes/TheEndBiomeData.java",
+      "src/main/java/net/mcreator/enderworld/init/EnderworldModSurfaceRules.java",
+      "src/main/java/net/mcreator/enderworld/endbiomes/TheEndBiomes.java",
+      "src/main/java/net/mcreator/enderworld/mixin/ClimateSamplerMixin.java",
+      "src/main/java/net/mcreator/enderworld/init/EnderworldModEndBiomes.java",
+      "src/main/java/net/mcreator/enderworld/mixin/NoiseGeneratorSettingsAccess.java",
+      "src/main/java/net/mcreator/enderworld/mixin/NoiseConfigMixin.java",
+      "src/main/java/net/mcreator/enderworld/mixin/ChunkNoiseSamplerMixin.java",
+      "src/main/java/net/mcreator/enderworld/init/EnderworldModMenus.java",
+      "src/main/java/net/mcreator/enderworld/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/enderworld/init/EnderworldModScreens.java",
+      "src/main/java/net/mcreator/enderworld/init/EnderworldModBlocks.java",
+      "src/main/java/net/mcreator/enderworld/init/EnderworldModBlockEntities.java",
+      "src/main/java/net/mcreator/enderworld/init/EnderworldModItems.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/enderworld/EnderworldMod.java",
+      "src/main/java/net/mcreator/enderworld/init/EnderworldModTabs.java",
+      "src/main/resources/enderworld.mixins.json",
+      "src/main/java/net/mcreator/enderworld/init/EnderworldModRenderStateModifiers.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Drop Tables",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": [
+          {
+            "name": "EndForest",
+            "children": []
+          },
+          {
+            "name": "ShulkerGarden",
+            "children": []
+          },
+          {
+            "name": "EndermiteMeadow",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tabs",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "enderworld",
+    "modName": "EnderWorld",
+    "version": "26.3.6",
+    "author": "CrazenMC",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.enderworld"
+  },
+  "mcreatorVersion": 202500345720
+}

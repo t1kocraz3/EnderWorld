@@ -1,0 +1,21 @@
+{
+  "_fv": 79,
+  "_type": "endbiome",
+  "definition": {
+    "biome": "ShulkerGarden",
+    "generationType": "Highlands",
+    "weight": 5.0,
+    "midlands": "Vanilla",
+    "barrens": "Vanilla",
+    "midlandsWeight": 0.5,
+    "barrensWeight": 0.5,
+    "mixins": [
+      "BiomeSourceMixin",
+      "TheEndBiomeSourceMixin",
+      "ClimateSamplerMixin",
+      "NoiseConfigMixin",
+      "ChunkNoiseSamplerMixin",
+      "NoiseGeneratorSettingsAccess"
+    ]
+  }
+}

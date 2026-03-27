@@ -1,0 +1,62 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "end_birch_planks_recipe",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:EndBirch"
+      },
+      {
+        "value": "CUSTOM:EndBirchWood"
+      },
+      {
+        "value": "CUSTOM:StrippedEndBirch"
+      },
+      {
+        "value": "CUSTOM:StrippedEndBirchWood"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StrippedEndBirch"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EndBirchPlanks"
+    },
+    "name": "end_birch_planks_recipe_3",
+    "namespace": "mod"
+  }
+}

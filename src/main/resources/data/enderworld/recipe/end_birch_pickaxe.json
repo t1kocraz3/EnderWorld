@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_pickaxe",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "enderworld:end_birch_planks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:wooden_pickaxe",
+    "count": 1
+  }
+}

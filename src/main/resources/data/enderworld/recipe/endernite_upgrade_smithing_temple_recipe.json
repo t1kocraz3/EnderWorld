@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:paper",
+    "b": "enderworld:reinforced_endernite_ingot",
+    "c": "minecraft:diamond",
+    "d": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "enderworld:endernite_upgrade_smithing_temple",
+    "count": 1
+  }
+}

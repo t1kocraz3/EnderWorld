@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "enderworld:block/end_birch_slab"
+    },
+    "type=top": {
+      "model": "enderworld:block/end_birch_slab_top"
+    },
+    "type=double": {
+      "model": "enderworld:block/end_birch_slab_full"
+    }
+  }
+}

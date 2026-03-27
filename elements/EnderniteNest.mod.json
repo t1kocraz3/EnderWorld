@@ -1,0 +1,33 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "endermite_nest",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 32,
+    "separation": 16,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:EndermiteMeadow"
+      },
+      {
+        "value": "plains"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "RAW_GENERATION",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "TRAPEZOID",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

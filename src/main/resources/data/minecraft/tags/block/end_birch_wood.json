@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "enderworld:stripped_end_birch",
+    "enderworld:end_birch",
+    "enderworld:end_birch_wood",
+    "enderworld:stripped_end_birch_wood"
+  ]
+}

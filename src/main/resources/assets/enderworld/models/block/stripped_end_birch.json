@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enderworld:block/stripped_end_birch_log_top",
+    "up": "enderworld:block/stripped_end_birch_log_top",
+    "north": "enderworld:block/stripped_end_birch_log_side",
+    "east": "enderworld:block/stripped_end_birch_log_side",
+    "south": "enderworld:block/stripped_end_birch_log_side",
+    "west": "enderworld:block/stripped_end_birch_log_side",
+    "particle": "enderworld:block/stripped_end_birch_log_top"
+  },
+  "render_type": "solid"
+}

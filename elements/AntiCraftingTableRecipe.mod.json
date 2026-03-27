@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "anti_crafting_table",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:EnderniteIngot"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EnderniteIngot"
+      },
+      {
+        "value": "CUSTOM:EnderniteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CRAFTING_TABLE"
+      },
+      {
+        "value": "CUSTOM:EnderniteIngot"
+      },
+      {
+        "value": "CUSTOM:EnderniteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AntiCraftingTable"
+    },
+    "name": "anti_crafting_table_recipe",
+    "namespace": "mod"
+  }
+}

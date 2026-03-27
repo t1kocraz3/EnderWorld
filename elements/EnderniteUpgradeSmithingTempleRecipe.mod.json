@@ -1,0 +1,56 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ReinforcedEnderniteIngot"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "CUSTOM:ReinforcedEnderniteIngot"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "CUSTOM:ReinforcedEnderniteIngot"
+      },
+      {
+        "value": "Items.PAPER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnderniteUpgradeSmithingTemple"
+    },
+    "name": "endernite_upgrade_smithing_temple_recipe",
+    "namespace": "mod"
+  }
+}

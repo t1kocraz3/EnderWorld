@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting_table",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "enderworld:end_birch_planks"
+  },
+  "result": {
+    "id": "minecraft:crafting_table",
+    "count": 1
+  }
+}

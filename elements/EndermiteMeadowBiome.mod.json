@@ -1,0 +1,21 @@
+{
+  "_fv": 79,
+  "_type": "endbiome",
+  "definition": {
+    "biome": "EndermiteMeadow",
+    "generationType": "Highlands",
+    "weight": 3.0,
+    "midlands": "EndForest",
+    "barrens": "EndForest",
+    "midlandsWeight": 2.0,
+    "barrensWeight": 1.0,
+    "mixins": [
+      "BiomeSourceMixin",
+      "TheEndBiomeSourceMixin",
+      "ClimateSamplerMixin",
+      "NoiseConfigMixin",
+      "ChunkNoiseSamplerMixin",
+      "NoiseGeneratorSettingsAccess"
+    ]
+  }
+}

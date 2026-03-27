@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "enderworld:end_forest",
+  "features": "enderworld:end_grass",
+  "step": "vegetal_decoration"
+}

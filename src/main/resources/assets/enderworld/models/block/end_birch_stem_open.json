@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "texture": "enderworld:block/end_birch_planks_preview",
+    "particle": "enderworld:block/end_birch_planks_preview"
+  },
+  "render_type": "solid"
+}

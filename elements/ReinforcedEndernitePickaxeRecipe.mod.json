@@ -1,0 +1,36 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:EnderniteUpgradeSmithingTemple"
+      },
+      {
+        "value": "CUSTOM:ReinforcedIronRod"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ReinforcedIronRod"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:EnderniteUpgradeSmithingTemple"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:EndernitePickaxe"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:ReinforcedEndernitePickaxe"
+    },
+    "name": "reinforced_endernite_pickaxe_recipe",
+    "namespace": "mod"
+  }
+}

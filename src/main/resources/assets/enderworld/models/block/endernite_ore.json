@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "enderworld:block/enderitev4",
+    "particle": "enderworld:block/enderitev4"
+  },
+  "render_type": "solid"
+}

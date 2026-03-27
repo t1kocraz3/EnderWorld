@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reinforced_iron",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": "enderworld:reinforced_iron_ingot"
+  },
+  "result": {
+    "id": "enderworld:reinforced_iron_rod",
+    "count": 2
+  }
+}

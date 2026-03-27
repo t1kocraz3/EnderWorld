@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "enderworld:block/end_birch",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "enderworld:block/end_birch"
+    },
+    "axis=z": {
+      "model": "enderworld:block/end_birch",
+      "x": 90
+    }
+  }
+}

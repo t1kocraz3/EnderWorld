@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"95\" y=\"28\"><field name=\"trigger\">no_ext_trigger</field></block><block type=\"controls_if\" x=\"168\" y=\"199\"><value name=\"IF0\"><block type=\"compare_mcitems_oredictionary\"><value name=\"b\"><block type=\"text\"><field name=\"TEXT\">enderworld:reinforced_iron_rod</field></block></value></block></value><next><block type=\"return_logic\"><value name=\"return\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></next></block><block type=\"itemstack_to_mcitem\" x=\"1106\" y=\"256\"></block><block type=\"entity_from_deps\" x=\"884\" y=\"307\"></block><block type=\"entity_from_deps\" x=\"920\" y=\"363\"></block><block type=\"gui_set_items\" x=\"1100\" y=\"382\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:ReinforcedIronIngot</field></block></value><value name=\"slotid\"><block type=\"math_number\"><field name=\"NUM\">2</field></block></value></block><block type=\"itemstack_get_count\" x=\"525\" y=\"497\"><value name=\"item\"><block type=\"itemstack_to_mcitem\"></block></value></block><block type=\"gui_set_items\" x=\"939\" y=\"505\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:ReinforcedIronIngot</field></block></value><value name=\"slotid\"><block type=\"math_number\"><field name=\"NUM\">3</field></block></value></block><block type=\"itemstack_get_count\" x=\"498\" y=\"540\"><value name=\"item\"><block type=\"itemstack_to_mcitem\"></block></value></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

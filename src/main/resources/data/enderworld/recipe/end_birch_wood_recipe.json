@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "end_wood",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "enderworld:end_birch"
+  },
+  "result": {
+    "id": "enderworld:end_birch_wood",
+    "count": 3
+  }
+}

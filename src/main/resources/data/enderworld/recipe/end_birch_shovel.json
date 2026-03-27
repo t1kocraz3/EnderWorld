@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_shovel",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": "enderworld:end_birch_planks",
+    "b": "minecraft:debug_stick"
+  },
+  "result": {
+    "id": "minecraft:wooden_shovel",
+    "count": 1
+  }
+}

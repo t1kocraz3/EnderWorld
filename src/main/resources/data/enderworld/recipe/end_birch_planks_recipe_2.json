@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "end_birch_planks_recipe",
+  "category": "misc",
+  "ingredients": [
+    "enderworld:end_birch_wood"
+  ],
+  "result": {
+    "id": "enderworld:end_birch_planks",
+    "count": 4
+  }
+}

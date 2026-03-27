@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enderworld:block/end_birch_top",
+    "up": "enderworld:block/end_birch_top",
+    "north": "enderworld:block/end_birch",
+    "east": "enderworld:block/end_birch",
+    "south": "enderworld:block/end_birch",
+    "west": "enderworld:block/end_birch",
+    "particle": "enderworld:block/end_birch_top"
+  },
+  "render_type": "cutout_mipped"
+}

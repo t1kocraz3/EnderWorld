@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "enderworld:item/reinforced_endernite_pickaxe"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "end_birch_planks_recipes",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:EndBirchPlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EndBirchPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EndBirchPlanks"
+      },
+      {
+        "value": "CUSTOM:EndBirchPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EndBirchPlanks"
+      },
+      {
+        "value": "CUSTOM:EndBirchPlanks"
+      },
+      {
+        "value": "CUSTOM:EndBirchPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EndBirchStairs"
+    },
+    "name": "end_birch_stairs_recipe",
+    "namespace": "mod"
+  }
+}

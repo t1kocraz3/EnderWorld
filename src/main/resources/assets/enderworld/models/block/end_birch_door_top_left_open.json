@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "enderworld:block/end_birch_planks_preview",
+    "bottom": "enderworld:block/end_birch_planks_preview",
+    "top": "enderworld:block/end_birch_door_top"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "anti_crafting_table",
+  "category": "misc",
+  "ingredients": [
+    "enderworld:endernite_ingot",
+    "enderworld:endernite_ingot",
+    "minecraft:crafting_table",
+    "enderworld:endernite_ingot",
+    "enderworld:endernite_ingot"
+  ],
+  "result": {
+    "id": "enderworld:anti_crafting_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "enderworld:end_birch_stairs",
+    "enderworld:end_birch_fence",
+    "enderworld:end_birch_door",
+    "enderworld:stripped_end_birch",
+    "enderworld:end_birch_planks",
+    "enderworld:end_birch",
+    "enderworld:end_birch_stem",
+    "enderworld:anti_crafting_table",
+    "enderworld:end_birch_slab",
+    "enderworld:end_birch_wood"
+  ]
+}

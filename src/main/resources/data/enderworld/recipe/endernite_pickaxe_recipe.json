@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:netherite_pickaxe",
+  "base": "enderworld:reinforced_endernite_ingot",
+  "addition": "enderworld:endernite_upgrade_smithing_temple",
+  "result": {
+    "id": "enderworld:endernite_pickaxe"
+  }
+}

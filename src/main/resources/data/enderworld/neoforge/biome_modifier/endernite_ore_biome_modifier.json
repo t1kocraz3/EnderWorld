@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "enderworld:end_forest",
+  "features": "enderworld:endernite_ore",
+  "step": "underground_ores"
+}

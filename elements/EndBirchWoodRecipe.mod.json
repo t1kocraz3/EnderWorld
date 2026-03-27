@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "end_wood",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:EndBirch"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EndBirch"
+      },
+      {
+        "value": "CUSTOM:EndBirch"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EndBirch"
+      },
+      {
+        "value": "CUSTOM:EndBirch"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EndBirchWood"
+    },
+    "name": "end_birch_wood_recipe",
+    "namespace": "mod"
+  }
+}

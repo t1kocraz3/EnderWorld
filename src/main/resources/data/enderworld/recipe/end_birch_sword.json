@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_sword",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "enderworld:end_birch_planks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "count": 1
+  }
+}

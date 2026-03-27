@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "enderworld:endernite_pickaxe",
+  "base": "enderworld:reinforced_iron_rod",
+  "addition": "enderworld:endernite_upgrade_smithing_temple",
+  "result": {
+    "id": "enderworld:reinforced_endernite_pickaxe"
+  }
+}
