@@ -1135,6 +1135,57 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "Pearl",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/items/pearl.json",
+          "src/main/resources/assets/enderworld/models/item/pearl.json",
+          "src/main/java/net/mcreator/enderworld/item/PearlItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Nitra",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitra",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/blockstates/nitra.json",
+          "src/main/resources/assets/enderworld/models/block/nitra.json",
+          "src/main/java/net/mcreator/enderworld/block/NitraBlock.java",
+          "src/main/resources/assets/enderworld/models/item/nitra.json",
+          "src/main/resources/assets/enderworld/items/nitra.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/nitra.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DeepslateNitra",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_nitra",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/block/deepslate_nitra.json",
+          "src/main/resources/data/enderworld/loot_table/blocks/deepslate_nitra.json",
+          "src/main/resources/assets/enderworld/items/deepslate_nitra.json",
+          "src/main/java/net/mcreator/enderworld/block/DeepslateNitraBlock.java",
+          "src/main/resources/assets/enderworld/models/item/deepslate_nitra.json",
+          "src/main/resources/assets/enderworld/blockstates/deepslate_nitra.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -1244,7 +1295,10 @@
       "item.enderworld.reinforced_endernite_pickaxe": "Reinforced Endernite Pickaxe",
       "item.enderworld.end_birch_sapling": "End Birch Sapling",
       "biome.enderworld.shulker_garden": "Shulker Garden",
-      "biome.enderworld.endermite_meadow": "Endermite Meadow"
+      "biome.enderworld.endermite_meadow": "Endermite Meadow",
+      "item.enderworld.pearl": "Pearl",
+      "item.enderworld.nitra": "Nitra",
+      "item.enderworld.deepslate_nitra": "Deepslate Nitra"
     },
     "ru_ru": {
       "item.enderworld.ender_dirt": "Земля энда",
@@ -1279,7 +1333,10 @@
       "item.enderworld.reinforced_endernite_pickaxe": "Укрепленная Эндернитовая кирка",
       "item.enderworld.end_birch_sapling": "End Birch Sapling",
       "biome.enderworld.shulker_garden": "Shulker Garden",
-      "biome.enderworld.endermite_meadow": "Endermite Meadow"
+      "biome.enderworld.endermite_meadow": "Endermite Meadow",
+      "item.enderworld.pearl": "Pearl",
+      "item.enderworld.nitra": "Nitra",
+      "item.enderworld.deepslate_nitra": "Deepslate Nitra"
     }
   },
   "metadata": {

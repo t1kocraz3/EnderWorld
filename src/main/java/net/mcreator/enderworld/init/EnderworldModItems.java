@@ -47,6 +47,9 @@ public class EnderworldModItems {
 	public static final DeferredItem<Item> ENDERNITE_PICKAXE;
 	public static final DeferredItem<Item> REINFORCED_ENDERNITE_PICKAXE;
 	public static final DeferredItem<Item> END_BIRCH_SAPLING;
+	public static final DeferredItem<Item> PEARL;
+	public static final DeferredItem<Item> NITRA;
+	public static final DeferredItem<Item> DEEPSLATE_NITRA;
 	static {
 		ENDER_TURF = block(EnderworldModBlocks.ENDER_TURF);
 		ENDER_DIRT = block(EnderworldModBlocks.ENDER_DIRT);
@@ -76,6 +79,9 @@ public class EnderworldModItems {
 		ENDERNITE_PICKAXE = register("endernite_pickaxe", EndernitePickaxeItem::new);
 		REINFORCED_ENDERNITE_PICKAXE = register("reinforced_endernite_pickaxe", ReinforcedEndernitePickaxeItem::new);
 		END_BIRCH_SAPLING = block(EnderworldModBlocks.END_BIRCH_SAPLING);
+		PEARL = register("pearl", PearlItem::new);
+		NITRA = block(EnderworldModBlocks.NITRA);
+		DEEPSLATE_NITRA = block(EnderworldModBlocks.DEEPSLATE_NITRA);
 	}
 
 	// Start of user code block custom items

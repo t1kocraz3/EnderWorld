@@ -34,6 +34,8 @@ public class EnderworldModBlocks {
 	public static final DeferredBlock<Block> ANTI_CRAFTING_TABLE;
 	public static final DeferredBlock<Block> END_GRASS;
 	public static final DeferredBlock<Block> END_BIRCH_SAPLING;
+	public static final DeferredBlock<Block> NITRA;
+	public static final DeferredBlock<Block> DEEPSLATE_NITRA;
 	static {
 		ENDER_TURF = register("ender_turf", EnderGrassBlock::new);
 		ENDER_DIRT = register("ender_dirt", EnderDirtBlock::new);
@@ -53,6 +55,8 @@ public class EnderworldModBlocks {
 		ANTI_CRAFTING_TABLE = register("anti_crafting_table", AntiCraftingTableBlock::new);
 		END_GRASS = register("end_grass", EndGrassBlock::new);
 		END_BIRCH_SAPLING = register("end_birch_sapling", EndBirchSaplingBlock::new);
+		NITRA = register("nitra", NitraBlock::new);
+		DEEPSLATE_NITRA = register("deepslate_nitra", DeepslateNitraBlock::new);
 	}
 
 	// Start of user code block custom blocks

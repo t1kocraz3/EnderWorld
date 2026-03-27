@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "enderworld:blocks/deepslate_nitra",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "enderworld:deepslate_nitra"
+        }
+      ]
+    }
+  ]
+}
