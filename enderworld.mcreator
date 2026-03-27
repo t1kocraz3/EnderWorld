@@ -1186,6 +1186,21 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "BlackPearl",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_pearl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enderworld/models/item/black_pearl.json",
+          "src/main/java/net/mcreator/enderworld/item/BlackPearlItem.java",
+          "src/main/resources/assets/enderworld/items/black_pearl.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -1298,7 +1313,8 @@
       "biome.enderworld.endermite_meadow": "Endermite Meadow",
       "item.enderworld.pearl": "Pearl",
       "item.enderworld.nitra": "Nitra",
-      "item.enderworld.deepslate_nitra": "Deepslate Nitra"
+      "item.enderworld.deepslate_nitra": "Deepslate Nitra",
+      "item.enderworld.black_pearl": "Black Pearl"
     },
     "ru_ru": {
       "item.enderworld.ender_dirt": "Земля энда",
@@ -1336,7 +1352,8 @@
       "biome.enderworld.endermite_meadow": "Endermite Meadow",
       "item.enderworld.pearl": "Pearl",
       "item.enderworld.nitra": "Nitra",
-      "item.enderworld.deepslate_nitra": "Deepslate Nitra"
+      "item.enderworld.deepslate_nitra": "Deepslate Nitra",
+      "item.enderworld.black_pearl": "Black Pearl"
     }
   },
   "metadata": {
