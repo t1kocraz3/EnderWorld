@@ -1374,17 +1374,17 @@
   "workspaceSettings": {
     "modid": "enderworld",
     "modName": "EnderWorld",
-    "version": "26.3.6",
+    "version": "26.5.6",
+    "description": "Mod makes The End much better",
     "author": "CrazenMC",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "websiteURL": "https://modrinth.com/mod/crazenmcsenderworld",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.8",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.enderworld"
   },
   "mcreatorVersion": 202500345720
